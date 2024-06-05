@@ -30,7 +30,7 @@ This document describes the general contract that any SPA framework should fulfi
 
 >[!CAUTION]
 >
->Although the SPA capabilities of AEM are framework-independent, currently only the React and Angular frameworks are is supported.
+>Although the SPA capabilities of AEM are framework-independent, currently only the official React and Angular frameworks are supported.
 
 To enable the author to use the AEM Page Editor to edit the data exposed by an Single Page Application framework, a project must be able to interpret the structure of the model representing the semantic of the data stored for an application within the AEM repository. To achieve this goal, two framework-agnostic libraries are provided: the `PageModelManager` and the `ComponentMapping`.
 
